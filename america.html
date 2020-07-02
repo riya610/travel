@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>america</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<style>
+
+h1 {
+font-size: 60px;
+font-family: cursive;
+}
+
+#div {
+height: 250px;
+width: 100%;
+background-color: #02153A;
+}
+
+#div1 {
+height: 200px;
+width: 100%;
+background-color: #2E3C58;
+
+}
+
+.ani-boxes > div {
+  background: #f2f2f2;
+  color: #fff;
+  border-radius: 4px;
+  padding: 1em;
+  margin: 0 0 1em;
+  width: 300px;
+}
+.ani-boxes:nth-child(even) > div {
+  background: #27b4a8;
+}
+
+.ani-boxes:nth-child(odd) > div {
+  background: #f4645f;
+}
+
+figure {
+	width: 300px;
+	height: 200px;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+}
+
+/* Blur + Gray Scale */
+.hover10 figure img {
+	-webkit-filter: grayscale(0) blur(0);
+	filter: grayscale(0) blur(0);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover10 figure:hover img {
+	-webkit-filter: grayscale(100%) blur(3px);
+	filter: grayscale(100%) blur(3px);
+}
+
+
+#newsletter {
+padding-top: 70px;
+padding-bottom: 50px;
+}
+
+</style>
+</head>
+
+<body>
+
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+	
+      <a class="navbar-brand" href="#" style="font-family: cursive;">Dream-o-Travel</a>
+    </div>
+    <ul class="nav navbar-nav">
+	<li><a href="#"><img src="travel.png"></a></li>
+	<li><a href="#"></a></li>
+	<li><a href="#"></a></li>
+      <li><a href="index.html">Home</a></li>
+	<li><a href="#"></a></li>
+      <li><a href="#">About</a></li>
+	<li><a href="#"></a></li>
+      <li><a href="#">Destination</a></li>
+	<li><a href="#"></a></li>
+      <li><a href="#">Blog</a></li>
+	<li><a href="#"></a></li>
+	<li><a href="#"></a></li>
+	<li><a href="#"></a></li>
+	<li><a href="#"></a></li>
+	<li><a href="#"></a></li>
+	<li><a href="info.html"><span class="glyphicon glyphicon-user"> Information</span></a></li>
+	<li><a href="#"></a></li>
+	<li><a href="#myModal" data-toggle="modal"><span class="glyphicon glyphicon-envelope"> Email us</span></a></li>
+
+    </ul>
+  </div>
+</nav>
+
+
+<!--nav bar completed-->
+
+<!--modal-->
+
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+     <div class="media">
+    <div class="media-left">
+      <img src="image.png" class="media-object img-circle" style="width:80px;height:80px">
+    </div>
+    <div class="media-body">
+     <input type="text" class="form-control" style="width:280px;" placeholder="Name" required><br>
+     <input type="email" class="form-control" style="width:280px;" placeholder="Email Id" id="2"required><br>
+     </div>
+    <textarea rows=8 cols=90 placeholder="Message.."></textarea><br><br>
+    <button type="submit"class="btn btn-primary btn-lg" onclick="ab()" data-dismiss="modal">SEND</button>
+  </div>
+ <!--email us-->
+
+ </div>
+  </div>
+
+<div>
+<center>
+<h1 style="font-family: cursive;">AMERICA</h1>
+<h3 style="color: #7E8B8A">"In God we trust" </h3>
+
+</center>
+
+
+<!--thumbnail1-->
+<center>
+<div class="row" id="destination">
+
+
+    <div class="col-md-4">
+      <div class="hover10 column">
+        
+      <center>  <figure><a href = "info.html" >  <img src="https://www.planetware.com/photos-large/USNY/usa-best-places-new-york.jpg" alt="Lights" style="width:100%;height:250px"></a></figure> </center>
+		
+         
+        
+      </div>
+	<div class="ani-boxes">
+      <div data-ani="bounce">NEW YORK</div>
+	</div>
+    </div>
+
+<div class="col-md-4">
+      <div class="hover10 column">
+        
+      <center>  <figure> <a href = "info.html" > <img src="https://www.planetware.com/photos-large/USNY/usa-best-places-san-francisco.jpg" alt="Lights" style="width:100%;height:250px"></a></figure></center>
+        	
+        
+      </div>
+	 
+	<div class="ani-boxes">
+      <div data-ani="bounce">San Francisco</div>
+	</div>
+
+    </div>
+    
+    
+    <div class="col-md-4">
+      <div class="hover10 column">
+        
+      <center>  <figure> <a href = "info.html" > <img src="https://www.planetware.com/wpimages/2019/08/united-states-best-places-to-visit-grand-canyon-lookout.jpg" alt="Fjords" style="width:100%;height:250px"></a></figure></center>
+         	
+        
+      </div>
+	 
+	<div class="ani-boxes">
+      <div data-ani="bounce"> The Grand Canyon</div>
+	</div>
+
+    </div>
+
+ 
+    
+  </div>
+</center>
+
+<br><br>
+
+<!--thumbnail2-->
+<center>
+<div class="row">
+    <div class="col-md-4">
+      <div class="hover10 column">
+        
+      <center>  <figure><a href = "info.html" >  <img src="https://www.planetware.com/photos-large/USNY/usa-best-places-las-vegas.jpg" alt="Lights" style="width:100%;height:250px"></a></figure> </center>
+          
+        
+      </div>
+	 
+	<div class="ani-boxes">
+      <div data-ani="bounce"> LAS VEGAS</div>
+	</div>
+
+    </div>
+
+<div class="col-md-4">
+      <div class="hover10 column">
+        
+      <center>  <figure> <a href = "info.html"> <img src = "https://www.planetware.com/photos-large/USNY/usa-best-places-washington.jpg" alt="Lights" style="width:100%;height:250px"></a></figure></center>
+          
+        
+      </div>
+	
+	<div class="ani-boxes">
+      <div data-ani="bounce">Washington, D.C.</div>
+	</div>
+
+    </div>
+    
+    
+    <div class="col-md-4">
+      <div class="hover10 column">
+        
+      <center>  <figure> <a href = "info.html" > <img src="https://www.planetware.com/photos-large/USNY/usa-best-places-miami.jpg" alt="Fjords" style="width:100%;height:250px"></a></figure></center>
+        
+      </div>
+	 
+	<div class="ani-boxes">
+      <div data-ani="bounce">Miami</div>
+	</div>
+
+    </div>
+    
+  </div>
+</center>
+
+<br><br><br>
+<!--newsletter-->
+<div id="div1">
+  <div class="row">
+	<div class="col-md-2">
+	</div>
+
+  
+  <div class="col-md-4" style="color: white; padding-top: 40px; padding-bottom: 50px;">
+	<h2>Subscribe Our Newsletter</h2>
+	<h4 style="color: #5A6160">Subscribe newsletter to get offers and about new palces to discover.</h4>
+  </div>
+  <div class="col-md-5">
+	<form id=newsletter>
+  
+  <input type="email" id="email" name="email">
+  <input type="submit" value="Subscribe" style="background-color: #60B7A8; color: white;">
+	</form>
+  </div>
+<div class="col-md-1"></div>
+
+</div> 
+</div>
+<br><br><br><br>
+<!--last div -->
+<div id="div">
+<div class="row">
+  <div class"col-md-3"></div>
+
+  <div class="col-md-5"><h1 style="font-family: cursive; padding-top: 50px; color: white" id="about">DREAM-O-TRAVEL</h1></div>
+  <div class="col-md-2"></div>
+  <div class="col-md-3" style="padding-top: 50px;">
+	<img src="fb.png">
+	<img src="insta.png">
+	<img src="twitter.png">
+	<img src="youtube.png">
+	
+  </div>
+
+  
+</div>
+</div>
+</div>
+
+
+</body>
+</html>

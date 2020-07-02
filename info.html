@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>info</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<script>
+	$(document).ready(function(){
+		$("#button").click(function(){
+		   var a=$("#p").val();
+		   var b=$("#rp").val();
+		   if(a!=b)
+		   	{$('#c').append("<div class='alert alert-danger' style='margin-top:30px;width:550px;text-align:center'>Check Your Password</div>");
+ $('#button').addClass("btn btn-danger");}
+
+		});
+	});
+	</script>
+<script>
+  	function ab()
+    {
+      var a=document.getElementById("2").value;
+      var b=/^[a-zA-Z]+@[A-Za-z]+.com$/;
+      if(!a.match(b))
+      {
+               window.alert("Please enter correct E-mail address");
+      }
+      else 
+      {
+      	window.alert("Your Email has been sent successfully");
+      }
+    }
+    function abc()
+			{
+			var a=document.getElementById("a").value;
+			var b=/^[a-zA-Z]+@[A-Za-z]+.com$/;
+			if(a.match(b))
+					{
+						window.alert("Congrats you are subscribed to our newsletter")
+					}
+					else
+					{
+						window.alert("Please enter correct Email address")
+					}
+
+  </script>
+  <style>
+			 .modal-header{
+			 	background-color: #282020;
+			 	color:white;
+			 }
+			 .modal-body{
+			 	background-color: #282020;
+			 	color:white;
+			 }
+			 .modal-footer{
+			 	background-color:  #282020;
+			 	color:white;
+			 }
+			 .form-control {
+			 	color: black;
+			}
+	</style>
+	<script>
+		function ac()
+		{
+			var a=document.getElementById("9").value;
+			var b=/^[a-zA-Z]+@[A-Za-z]+.com$/;
+			var c=document.getElementById("p").value;
+			var d=document.getElementById("rp").value;
+			if(!a.match(b))
+			{
+               window.alert("Please enter correct E-mail address");
+			}
+			else if(c.match(d) && a.match(b))
+			{
+               window.alert("Your Account is successfully created");
+			}
+		}
+	</script>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+	
+      <a class="navbar-brand" href="#" style="font-family: cursive;">Dream-o-Travel</a>
+    </div>
+    <ul class="nav navbar-nav">
+	<li><a href="#"><img src="travel.png"></a></li>
+	<li><a href="#"></a></li>
+	<li><a href="#"></a></li>
+      <li><a href="index.html">Home</a></li>
+	<li><a href="#"></a></li>
+      <li><a href="#about">About</a></li>
+	<li><a href="#"></a></li>
+      <li><a href="#destination">Destination</a></li>
+	<li><a href="#"></a></li>
+      <li><a href="#destination">Blog</a></li>
+	<li><a href="#"></a></li>
+	<li><a href="#"></a></li>
+	<li><a href="#"></a></li>
+	<li><a href="#"></a></li>
+	<li><a href="#"></a></li>
+	<li><a href="info.html"><span class="glyphicon glyphicon-user"> Information</span></a></li>
+	<li><a href="#"></a></li>
+	<li><a href="#myModal" data-toggle="modal"><span class="glyphicon glyphicon-envelope"> Email us</span></a></li>
+
+    </ul>
+  </div>
+</nav>
+
+<!--nav bar completed-->
+
+<!--modal-->
+
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+     <div class="media">
+    <div class="media-left">
+      <img src="image.png" class="media-object img-circle" style="width:80px;height:80px">
+    </div>
+    <div class="media-body">
+     <input type="text" class="form-control" style="width:280px;" placeholder="Name" required><br>
+     <input type="email" class="form-control" style="width:280px;" placeholder="Email Id" id="2"required><br>
+     </div>
+    <textarea rows=8 cols=90 placeholder="Message.."></textarea><br><br>
+    <button type="submit"class="btn btn-primary btn-lg" onclick="ab()" data-dismiss="modal">SEND</button>
+  </div>
+ <!--email us-->
+
+ </div>
+  </div>
+
+<div class="row">
+		<div class="col-md-12" style="height:63px;background-color: #7DC7CA;"></div>
+		</div>
+		<div class="row">
+			<div class="col-md-1" style="height:500px;background-color: #7DC7CA;">
+			</div>
+			<div class="col-md-4" style="background-image:url('https://specials-images.forbesimg.com/imageserve/5de271afea103f000653bd95/960x0.jpg?fit=scale');background-repeat:no-repeat;height:500px;background-size:cover">
+			</div>
+
+			<div class="col-md-6" style="height:500px">
+				<form style="background-image:url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/travel2-1585330768.jpg?resize=480:*');background-repeat:no-repeat;height:500px;background-size:cover;">
+					<div class="container">
+					<div class="form-group" >
+						<input type="text" placeholder="Username" class="form-control" style="border: none;outline: none;border-bottom:2px solid  black;margin-top:40px;background:none;width:550px;" required>
+					</div>
+					<div class="form-group">
+						<input type="email" placeholder="Email"  class="form-control" style="border: none;outline: none;border-bottom:2px solid black;margin-top:30px;background:none;width:550px" id="9"required>
+					</div>
+					<div class="form-group">
+						<input type="password" placeholder="Password"  class="form-control" style="border: none;outline: none;border-bottom:2px solid black;margin-top:30px;background:none;width:550px" id="p" required>
+					</div>
+					<div class="form-group">
+						<input type="password" placeholder="confirm password"  class="form-control" style="border: none;outline: none;border-bottom:2px solid black;margin-top:30px;background:none;width:550px" id="rp" required>
+					</div>
+					
+				
+				</form>
+				<button type="button" class="btn btn-primary btn-block" style="margin-top:30px;width:550px;background-color:#053335" id="button" onclick="ac()" >Create Your Account</button>
+					<div style="margin-top:30px">
+					<a href="login.html" style="color:black">Already Registered? Sign in.</a></div>
+					<div id="c"></div>
+			</div>
+		</div>
+			<div class="col-md-1" style="height:500px;background-color: #7DC7CA;">
+			</div>
+		</div>
+		<div class="row">
+		<div class="col-md-12" style="height:63px;background-color: #7DC7CA;"></div>
+		</div>
+
+  </div>
+</div>
+</body>
+</html>
